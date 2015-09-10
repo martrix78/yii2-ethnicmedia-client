@@ -1,0 +1,21 @@
+{
+    "name": "martrix/yii2-ethnicmedia-client",
+    "description": "Ethnicmedia client",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","EthnicMedia","Ad post system"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Andrew Russkin (EthnicMedia)",
+            "email": "andrew.russkin@ethnicmedia.us"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "martrix\\ethnicmediaClient\\": ""
+        }
+    }
+}
