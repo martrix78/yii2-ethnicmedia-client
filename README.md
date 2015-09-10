@@ -51,11 +51,11 @@ example of use on  template (ad.php):
 
 <div id="EM_ad_form"  class="adform">
 
-	<?= \martrix\ethnicmediaClient\Emformwidget::widget(['adId'=>5]); ?>
+	<?php echo \martrix\ethnicmediaClient\Emformwidget::widget(['adId'=>5]); ?>
 </div>
 
 
 <div class="ad">
 
-	<?= \martrix\ethnicmediaClient\Emadsdisplaywidget::widget(['categoryId'=>$categoryId,'page'=>$page]); ?>
+	<?php echo \martrix\ethnicmediaClient\Emadsdisplaywidget::widget(['categoryId'=>$categoryId,'page'=>$page]); ?>
 </div>
