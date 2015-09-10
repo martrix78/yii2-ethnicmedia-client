@@ -49,13 +49,13 @@ Usage
 ```
 example of use on  template (ad.php):
 
-<div id="EM_ad_form"  class="adform">
+
 
 	<?php echo \martrix\ethnicmediaClient\Emformwidget::widget(['adId'=>5]); ?>
-</div>
 
 
-<div class="ad">
+
+
 
 	<?php echo \martrix\ethnicmediaClient\Emadsdisplaywidget::widget(['categoryId'=>$categoryId,'page'=>$page]); ?>
-</div>
+
